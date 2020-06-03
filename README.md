@@ -1,2 +1,3 @@
-# tec-CPC464-TEC-1
-CPC464-TEC-1 bridge
+# tec-CPC464
+
+CPC464-TEC-1 bridge experiments
