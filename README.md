@@ -1,6 +1,9 @@
 # tec-CPC464
 
-CPC464-TEC-1 bridge experiments
+CPC464-TEC-1 bridge 
+- run experiments
+
+
 
 
 ## ref
