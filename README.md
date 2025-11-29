@@ -1,3 +1,8 @@
+- https://github.com/ColinPitrat/caprice32/blob/master/doc/man6/cap32.6
+- 
+
+
+
 # tec-CPC464
 
 CPC464-TEC-1 bridge 
