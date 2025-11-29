@@ -63,8 +63,20 @@ variable buf 256 allot
   THEN ;
 ```
 
-This is an attempt at converting some aspects of the original Arduino code into a version of Forth. It's important to note that the hardware interactions (`pin-input`, `pin-output`, `digital-write`, `digital-read`, etc.) are pseudo-operations, as Forth doesn't usually interact with hardware in this way directly. You would need to provide appropriate definitions for these words based on the specific Forth system and hardware platform you're using. Furthermore, the Forth language doesn't usually use polling loops as used in Arduino loop functions, and it's usually better to organize the program in a different way.
+This is an attempt at converting some aspects of the original Arduino code into a version of Forth. 
+It's important to note that the hardware interactions (`pin-input`, `pin-output`, `digital-write`, 
+`digital-read`, etc.) are pseudo-operations, as Forth doesn't usually interact with hardware in this 
+way directly. You would need to provide appropriate definitions for these words based on the specific 
+Forth system and hardware platform you're using. Furthermore, the Forth language doesn't usually use 
+polling loops as used in Arduino loop functions, and it's usually better to organize the program in a 
+different way.
 
-Also, the complex part of the code, involving direct manipulation of ports (`PORTB` and `PORTD`), has been left as is, because it would be hardware-dependent and would need a specific Forth system with appropriate facilities for port I/O. Forth isn't typically used to do the low-level hardware access in this manner, although it can be if the Forth system has appropriate primitives and the hardware platform permits it.
+Also, the complex part of the code, involving direct manipulation of ports (`PORTB` and `PORTD`), 
+has been left as is, because it would be hardware-dependent and would need a specific Forth system 
+with appropriate facilities for port I/O. Forth isn't typically used to do the low-level hardware 
+access in this manner, although it can be if the Forth system has appropriate primitives and the 
+hardware platform permits it.
 
-So while this code should give you a sense of how you might write similar code in Forth, it won't actually run on a Forth system without additional definitions and modifications to suit the Forth system and the hardware platform.
+So while this code should give you a sense of how you might write similar code in Forth, 
+it won't actually run on a Forth system without additional definitions and modifications 
+to suit the Forth system and the hardware platform.
