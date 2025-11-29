@@ -1,4 +1,6 @@
-The code provided is written in the Arduino variant of C++, which is a static, compiled language. In contrast, Forth is a stack-based, interactive language, and is not typically used for embedded hardware programming.
+The code provided is written in the Arduino variant of C++, which is a static, compiled language. 
+In contrast, Forth is a stack-based, interactive language, and is not typically used for 
+embedded hardware programming.
 
 However, converting some key aspects of this code into Forth could look something like this:
 
